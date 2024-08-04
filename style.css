@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.nav-item a{
+    color:grey;
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+.search{
+    height: 35px;
+    width: 20px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 20px,0px,0px,20px;
+    border-right: none;
+}
+.sarn{
+    height: 30px;
+    border: 2px solid rgb(20,219,20);
+    border-radius: 20px,0px,0px,20px;
+    justify-content: center;
+    margin-bottom: 20px;
+padding: 2px;
+}
+.search:focus{
+    outline: none;
+    box-shadow: none;
+    border:rgb(20,219,20); 
+}
+/* dropdown*/
+.scroll-bar{
+  margin-bottom: 20px;
+}
+.main{
+    background: url("stock-photo-olive-oil-with-herbs-spices-and-sea-salt-on-wooden-background.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+}
+/*.about.*/
+.about{
+    background: url("front-view-fresh-vegetables-with-greens-white-desk-ripe-salad-health-vegetable.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.welcome{
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    color: black;
+    display: inline-block;
+}
+.welcome.card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    padding-right: 20px;
+}
+.star{
+    text-align: end;
+}
+.product .card{
+    border: 1px solid gray;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+.footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1280px;
+  width: 95%;
+  background: #10182F;
+  border-radius: 6px;
+}
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.2rem;
+  padding: 60px;
+  background:#00548b;
+}
+.footer-row .footer-col h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-col .links {
+  margin-top: 20px;
+}
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-col .links li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-col .links li a:hover {
+  color: MediumTurquoise;
+}
+.footer-col p {
+  margin: 20px 0;
+  color: #bfbfbf;
+  max-width: 300px;
+}
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+.footer-col input::placeholder {
+  color: #ccc;
+}
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+.footer-col form button:hover {
+  background: #cecccc;
+}
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+.footer-col .icons i {
+  color: #afb6c7;
+}
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+  .footer-col form {
+    display: block;
+  }
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+.icons{
+  text-align: center;
+ 
+}
+
+
